@@ -15,7 +15,7 @@ class ProductForm(forms.ModelForm):
             'step': 'any',
             'min': '1',
         }
-
-class Meta:
-    model = Product
-    fields = ('name', 'description', 'price')
+    
+    class Meta:
+        model = Product
+        fields = ('name', 'description', 'price')
